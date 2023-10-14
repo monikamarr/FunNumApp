@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FunNum</string>
+    <string name="get_numbers_info">Get Numbers Info</string>
+    <string name="lear_something_new_today_about_numbers">Learn something new about numbers:</string>
+    <string name="numbers_pic">Numbers Pic</string>
+    <string name="random_year_info">Random Year Info</string>
+    <string name="random_trivia">Random Trivia</string>
+    <string name="random_number_info">Random Number Info</string>
+    <string name="enter_a_number">Enter a number</string>
+</resources>
