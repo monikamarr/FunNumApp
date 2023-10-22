@@ -7,4 +7,6 @@
     <string name="random_trivia">Random Trivia</string>
     <string name="random_number_info">Random Number Info</string>
     <string name="enter_a_number">Enter a number</string>
+    <string name="random_mode">Random Mode</string>
+    <string name="new_data_pulled">New Data Pulled</string>
 </resources>
