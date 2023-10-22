@@ -34,7 +34,8 @@ The following STRETCH features are implemented:
 Here's a video / GIF that demos all of the app's implemented features:
 
 https://i.imgur.com/ziXIYdr.gif
-<img src='https://i.imgur.com/ziXIYdr.gif' title='Video Demo' alt='Video Demo' />
+![Video Demo](https://i.imgur.com/ziXIYdr.gif)
+
 
 
 GIF created with **Kap**
