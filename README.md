@@ -33,6 +33,8 @@ The following STRETCH features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
+https://imgur.com/3myIxtQ.gif
+
 <img src='https://imgur.com/3myIxtQ.gif' title='Video Demo' width='' alt='Video Demo' />
 GIF created with **Kap**
 
