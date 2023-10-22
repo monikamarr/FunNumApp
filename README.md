@@ -32,7 +32,7 @@ The following STRETCH features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
-https://i.imgur.com/yMmhkIW.gif
+
 <img src='https://i.imgur.com/yMmhkIW.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **Kap**
