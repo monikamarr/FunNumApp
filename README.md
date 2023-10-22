@@ -1,6 +1,4 @@
-<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
-
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: **Monika Marek**
 
@@ -8,9 +6,9 @@ Time spent: **4** hours spent in total
 
 ## Summary
 
-**FunNum** is an android app that **displays the facts about numbers fetched from Numbers API. There are two options: numbers pulled randomly, or a user can switch to user mode and enter their own value.**
+**FunNum** is an android app that **displays either random or user-chosen info about numebers. It uses RecycledView to displahy a vertical list of APIs.**
 
-If I had to describe this project in three (3) emojis, they would be: ✨🤯💥
+If I had to describe this project in three (3) emojis, they would be: 🦚📲🤙🏻
 
 ## Application Features
 
@@ -19,36 +17,25 @@ If I had to describe this project in three (3) emojis, they would be: ✨🤯�
 The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [x] Add a query to the API request
-  - The query I added is **userNumber**
-- [x] Build a UI to allow users to add that query
+- [x] Show a `Toast`  when the button is clicked
+- [x] Add item dividers with `DividerItemDecoration`
 
-The following EXTRA features are implemented:
 
-- [x] Toggle Switch so that the user can decide themself whether they want a random number fact or they want to specify the number!
-
-## API Choice
-
-My chosen API for this project is **Numbers API**.
+- [x] Toggle Switch that lets the user switch between random mode and user-input mode
+- [x] Total of seven API calls
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
-https://i.imgur.com/LDTOn0Y.gif
-<img src='https://i.imgur.com/LDTOn0Y.gif' title='Video Demo' width='' alt='Video Demo' />
+
+<img src='https://i.imgur.com/yMmhkIW.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **Kap**
-
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
-
 
 
 ## License
