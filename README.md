@@ -6,7 +6,7 @@ Time spent: **4** hours spent in total
 
 ## Summary
 
-**FunNum** is an android app that **displays either random or user-chosen info about numebers. It uses RecycledView to displahy a vertical list of APIs.**
+**FunNum** is an android app that **displays either random or user-chosen info about numebers. It uses RecycledView to display a vertical list of APIs.**
 
 If I had to describe this project in three (3) emojis, they would be: 🦚📲🤙🏻
 
