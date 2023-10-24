@@ -37,7 +37,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 
 https://imgur.com/3myIxtQ.gif 
-
+**My gif doesn't show automatically here. I tried to get help on slack but nobody helped me.**
 
 GIF created with **Kap**
 
