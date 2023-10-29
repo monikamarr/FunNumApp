@@ -1,14 +1,16 @@
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+
+
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
 Submitted by: **Monika Marek**
 
-Time spent: **4** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Summary
 
-**FunNum** is an android app that **displays either random or user-chosen info about numebers. It uses RecycledView to display a vertical list of APIs.**
+**FunNum** is an android app that displays the facts about numbers fetched from Numbers API. There are two options: numbers pulled randomly, or a user can switch to user mode and enter their own value.
 
-If I had to describe this project in three (3) emojis, they would be: 🦚📲🤙🏻
+If I had to describe this project in three (3) emojis, they would be: 🤌💪🎃
 
 ## Application Features
 
@@ -16,30 +18,24 @@ If I had to describe this project in three (3) emojis, they would be: 🦚📲�
 
 The following REQUIRED features are completed:
 
-- [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Implement a RecyclerView to display a list of entries from the API
-- [x] Display at least three (3) pieces of data for each RecyclerView item
-
-The following STRETCH features are implemented:
-
-- [x] Show a `Toast`  when the button is clicked
-- [x] Add item dividers with `DividerItemDecoration`
-
-
-- [x] Toggle Switch that lets the user switch between random mode and user-input mode
-- [x] Total of seven API calls
+- [x] App contains a RecyclerView that displays a list of scrollable data
+- [x] App displays at least two (2) pieces of data for each RecyclerView item
+- [x] Use a downloadable font with custom color and size
+- [x] Modify the theme of the app in `themes.xml`
+- [x] Define and apply at least one style in `themes.xml` 
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/3myIxtQ.gif' title='Video Demo' width='' alt='Video Demo' />
-
-
-https://imgur.com/3myIxtQ.gif 
-**My gif doesn't show automatically here. I tried to get help on slack but nobody helped me.**
+<img src='https://i.imgur.com/ss5vZni.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **Kap**
+
+<!-- Recommended tools:
+- [Kap](https://getkap.co/) for macOS
+- [ScreenToGif](https://www.screentogif.com/) for Windows
+- [peek](https://github.com/phw/peek) for Linux. -->
 
 
 ## License
