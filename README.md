@@ -28,7 +28,7 @@ The following REQUIRED features are completed:
 
 Here's a video / GIF that demos all of the app's implemented features: https://i.imgur.com/ss5vZni.gif
 
-<img src='https://i.imgur.com/ss5vZni.gif' title='Video Demo' width='' alt='Video Demo' />
+<blockquote class="imgur-embed-pub" lang="en" data-id="ss5vZni"><a href="https://imgur.com/ss5vZni">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 GIF created with **Kap**
