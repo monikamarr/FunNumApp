@@ -26,9 +26,9 @@ The following REQUIRED features are completed:
 
 ## Video Demo
 
-Here's a video / GIF that demos all of the app's implemented features:
+Here's a video / GIF that demos all of the app's implemented features: https://i.imgur.com/ss5vZni.gif
 
-<img src='https://i.imgur.com/LDTOn0Y.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/ss5vZni.gif' title='Video Demo' width='' alt='Video Demo' />
 
 
 GIF created with **Kap**
