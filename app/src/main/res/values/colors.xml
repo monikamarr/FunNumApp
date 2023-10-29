@@ -2,10 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name ="buttonColor">#D7C0AE</color>
-    <color name="info1">#186F65</color>
-    <color name="info2">#419197</color>
-    <color name="info3">#B2533E</color>
+    <color name ="buttonColor">#967E76</color>
+    <color name="info1">#809A6F</color>
+    <color name="info2">#9C0F48</color>
+    <color name="info3">#E45826</color>
 
 
 </resources>

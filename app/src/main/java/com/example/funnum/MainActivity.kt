@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -47,7 +48,15 @@ class MainActivity : AppCompatActivity() {
 
         recyclerViewNum.adapter = numsAdapter
         recyclerViewNum.layoutManager = LinearLayoutManager(this)
-        recyclerViewNum.addItemDecoration((DividerItemDecoration(this, LinearLayoutManager.VERTICAL)))
+
+        // Create an instance of your custom divider
+        val customDivider = ContextCompat.getDrawable(this, R.drawable.divider)
+
+// Set the divider for the RecyclerView
+        recyclerViewNum.addItemDecoration(DividerItemDecoration(this, LinearLayoutManager.VERTICAL).apply {
+            customDivider?.let { setDrawable(it) }
+        })
+
 
         val button = findViewById<Button>(R.id.getInfoButton)
         val toggleButton = findViewById<Button>(R.id.switchToggle)

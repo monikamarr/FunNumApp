@@ -1,14 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.FunNum" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your font theme . -->
+         <item name="android:fontFamily">@font/chilanka</item>
     </style>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight"/>
 
     <style name="Theme.FunNum" parent="Base.Theme.FunNum" />
     <style name="CustomButtonStyle">
         <item name="android:background">@drawable/button_background</item>
 
+    </style>
+<!--   new theme -->
+    <style name="TextAppearanceYear" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">"@color/info1"</item>
+
+    </style>
+    <style name="TextAppearanceTrivia" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">"@color/info2"</item>
+
+
+    </style>
+    <style name="TextAppearanceNum" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">"@color/info3"</item>
     </style>
 
 </resources>

@@ -19,23 +19,23 @@
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:scrollbars="vertical"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
             android:id="@+id/Welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/annie_use_your_telescope"
             android:gravity="center"
+            android:padding="8dp"
             android:text="@string/lear_something_new_today_about_numbers"
-            android:textSize="20sp"
             android:textColor="@color/buttonColor"
-            android:fontFamily="monospace"
+            android:textSize="30sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/num_list"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/num_list" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -73,12 +73,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/autour_one"
             android:text="@string/random_mode"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/numberInput"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/numberInput" />
 
         <Button
             android:id="@+id/getInfoButton"
@@ -98,16 +99,16 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
 
-
         <TextView
             android:id="@+id/randomInfo1"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
+            android:textColor="@color/info1"
             android:gravity="center"
             android:text="@string/random_year_info"
-            android:textColor="@color/info1"
+            android:textAppearance="@style/TextAppearanceYear"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
@@ -118,10 +119,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
             android:text="@string/random_trivia"
             android:textColor="@color/info2"
+            android:textAppearance="@style/TextAppearanceTrivia"
             app:layout_constraintTop_toBottomOf="@id/randomInfo1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -131,10 +133,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
             android:text="@string/random_number_info"
             android:textColor="@color/info3"
+            android:textAppearance="@style/TextAppearanceNum"
             app:layout_constraintTop_toBottomOf="@id/randomInfo2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -143,10 +146,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
-            android:text="@string/random_year_info"
             android:textColor="@color/info1"
+            android:text="@string/random_year_info"
+            android:textAppearance="@style/TextAppearanceYear"
             app:layout_constraintTop_toBottomOf="@id/randomInfo3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -155,10 +159,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
             android:text="@string/random_trivia"
             android:textColor="@color/info2"
+            android:textAppearance="@style/TextAppearanceTrivia"
             app:layout_constraintTop_toBottomOf="@id/randomInfo4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -167,10 +172,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
             android:text="@string/random_number_info"
             android:textColor="@color/info3"
+            android:textAppearance="@style/TextAppearanceNum"
             app:layout_constraintTop_toBottomOf="@id/randomInfo5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -179,10 +185,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/chilanka"
             android:gravity="center"
             android:text="@string/random_year_info"
             android:textColor="@color/info1"
+            android:textAppearance="@style/TextAppearanceYear"
             app:layout_constraintTop_toBottomOf="@id/randomInfo6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
